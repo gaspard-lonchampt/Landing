@@ -1,26 +1,86 @@
-html, body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  background:  #001B5B;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap");
+
+@media (max-width: 500px) {
+  .reverse-columns {
+    flex-direction: column-reverse;
+    display: flex;
+  }
 }
-.card {
-  margin-bottom: 3rem;
+
+/* * {
+  font-family: "Mulish", serif !important;
+} */
+
+body {
+  background-color: #001b5b !important;
 }
-.content-wrapper {
-  margin-top: 3rem;
+
+.titled {
+  font-family: "Mulish", serif !important;
+  font-size: 58px !important;
+  font-weight: 700 !important;
+  line-height: 64px !important;
+  color: #98fb98;
 }
-.card-footer-item {
-  font-size: 12px;
-  font-weight: normal;
+
+.subtitled {
+  font-family: "Mulish", serif !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  line-height: 36px !important;
+  color: #c8f7c5;
 }
-.card-header-title {
-  display: block;
+
+.bullet {
+  font-family: "Mulish", serif !important;
+  font-weight: 700 !important;
+  line-height: 36px !important;
+  color: #98fb98;
 }
-.card-content p {
-  margin-bottom: 2rem;
+
+.sub-bullet {
+  font-family: "Mulish", serif !important;
+  font-weight: 400 !important;
+  line-height: 1.5em !important;
+  color: #c8f7c5;
 }
-.container {
-  max-width: 95%;
+
+#mce-EMAIL {
+  /* background-color: inherit !important; */
+  color: #001b5b !important;
+  font-family: "Mulish", serif !important;
+  font-weight: 600;
+  width: 40% !important;
 }
-.fa-code, .fa-search {
-  margin-right: 0.5vw;
+
+#mce-EMAIL:active,
+#mce-EMAIL:focus {
+  border-color: #2c9272 !important;
+  box-shadow: 0 0 10px -3px #2c9272;
 }
+
+#mce-EMAIL::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+  opacity: 0.8; /* Firefox */
+  font-family: "Mulish", serif !important;
+}
+
+.custom-button {
+  background-color: #3cf73c !important;
+  border-color: #98fb98 !important;
+  color: #001b5b !important;
+  font-family: "Mulish", serif !important;
+  font-weight: 700;
+}
+
+.custom-button:hover {
+  background-color: #001b5b !important;
+  color: #3cf73c !important;
+  opacity: 1;
+  box-shadow: 0 0 65px -3px #2c9272;
+}
+
+/* .contain {
+  width: 60% !important;
+} */
